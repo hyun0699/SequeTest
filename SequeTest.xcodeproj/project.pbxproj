@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21BA725AFABDF79840B26C6D /* Pods_SequeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8544F78A0740F177F3C7D07 /* Pods_SequeTest.framework */; };
+		3224507B23936743004F08A4 /* ShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3224507A23936743004F08A4 /* ShowTableViewController.m */; };
+		3224507E239489BA004F08A4 /* WKWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = 3224507D239489BA004F08A4 /* WKWebview.m */; };
+		32A1DEA2239119EF00DEA724 /* SecondViewScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1DEA1239119EF00DEA724 /* SecondViewScene.m */; };
+		32A1DEA523927DD000DEA724 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1DEA423927DD000DEA724 /* SecondViewController.m */; };
+		32A1DEA82392AF9B00DEA724 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1DEA72392AF9B00DEA724 /* ModelViewController.m */; };
+		32A1DEAC2392AFD000DEA724 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1DEAB2392AFD000DEA724 /* Model.m */; };
+		32A1DEAF2392AFE200DEA724 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1DEAE2392AFE200DEA724 /* Controller.m */; };
+		32E04CC42390997E0060B2AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E04CC32390997E0060B2AD /* AppDelegate.m */; };
+		32E04CC72390997E0060B2AD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E04CC62390997E0060B2AD /* SceneDelegate.m */; };
+		32E04CCA2390997E0060B2AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E04CC92390997E0060B2AD /* ViewController.m */; };
+		32E04CCD2390997E0060B2AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E04CCB2390997E0060B2AD /* Main.storyboard */; };
+		32E04CCF2390997F0060B2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E04CCE2390997F0060B2AD /* Assets.xcassets */; };
+		32E04CD22390997F0060B2AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E04CD02390997F0060B2AD /* LaunchScreen.storyboard */; };
+		32E04CD52390997F0060B2AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E04CD42390997F0060B2AD /* main.m */; };
+		32E04CE0239100240060B2AD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E04CDF239100240060B2AD /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BF3E9B5855D824D6A3596F8 /* Pods-SequeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SequeTest/Pods-SequeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3224507923936743004F08A4 /* ShowTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTableViewController.h; sourceTree = "<group>"; };
+		3224507A23936743004F08A4 /* ShowTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTableViewController.m; sourceTree = "<group>"; };
+		3224507C239489BA004F08A4 /* WKWebview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebview.h; sourceTree = "<group>"; };
+		3224507D239489BA004F08A4 /* WKWebview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebview.m; sourceTree = "<group>"; };
+		32A1DEA0239119EF00DEA724 /* SecondViewScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewScene.h; sourceTree = "<group>"; };
+		32A1DEA1239119EF00DEA724 /* SecondViewScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewScene.m; sourceTree = "<group>"; };
+		32A1DEA323927DD000DEA724 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		32A1DEA423927DD000DEA724 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		32A1DEA62392AF9B00DEA724 /* ModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		32A1DEA72392AF9B00DEA724 /* ModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		32A1DEAA2392AFD000DEA724 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		32A1DEAB2392AFD000DEA724 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		32A1DEAD2392AFE200DEA724 /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		32A1DEAE2392AFE200DEA724 /* Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		32E04CBF2390997E0060B2AD /* SequeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SequeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E04CC22390997E0060B2AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32E04CC32390997E0060B2AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32E04CC52390997E0060B2AD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		32E04CC62390997E0060B2AD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		32E04CC82390997E0060B2AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32E04CC92390997E0060B2AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32E04CCC2390997E0060B2AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32E04CCE2390997F0060B2AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32E04CD12390997F0060B2AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32E04CD32390997F0060B2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E04CD42390997F0060B2AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32E04CDE239100240060B2AD /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		32E04CDF239100240060B2AD /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		6448B60C122F481BDAE18BF7 /* Pods-SequeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SequeTest/Pods-SequeTest.release.xcconfig"; sourceTree = "<group>"; };
+		F8544F78A0740F177F3C7D07 /* Pods_SequeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SequeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E04CBC2390997E0060B2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BA725AFABDF79840B26C6D /* Pods_SequeTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046CF24E99DAC3149EF0E604 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8544F78A0740F177F3C7D07 /* Pods_SequeTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32A1DEA92392AFA700DEA724 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				32A1DEA62392AF9B00DEA724 /* ModelViewController.h */,
+				32A1DEA72392AF9B00DEA724 /* ModelViewController.m */,
+				32A1DEAA2392AFD000DEA724 /* Model.h */,
+				32A1DEAB2392AFD000DEA724 /* Model.m */,
+				32A1DEAD2392AFE200DEA724 /* Controller.h */,
+				32A1DEAE2392AFE200DEA724 /* Controller.m */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		32E04CB62390997E0060B2AD = {
+			isa = PBXGroup;
+			children = (
+				32A1DEA92392AFA700DEA724 /* MVC */,
+				32E04CC12390997E0060B2AD /* SequeTest */,
+				32E04CC02390997E0060B2AD /* Products */,
+				EBCBF72D201D54FBBE9BCE3C /* Pods */,
+				046CF24E99DAC3149EF0E604 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32E04CC02390997E0060B2AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E04CBF2390997E0060B2AD /* SequeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E04CC12390997E0060B2AD /* SequeTest */ = {
+			isa = PBXGroup;
+			children = (
+				32E04CC22390997E0060B2AD /* AppDelegate.h */,
+				32E04CC32390997E0060B2AD /* AppDelegate.m */,
+				32E04CDE239100240060B2AD /* RootViewController.h */,
+				32E04CDF239100240060B2AD /* RootViewController.m */,
+				32E04CC52390997E0060B2AD /* SceneDelegate.h */,
+				32E04CC62390997E0060B2AD /* SceneDelegate.m */,
+				32E04CC82390997E0060B2AD /* ViewController.h */,
+				32E04CC92390997E0060B2AD /* ViewController.m */,
+				32E04CCB2390997E0060B2AD /* Main.storyboard */,
+				3224507C239489BA004F08A4 /* WKWebview.h */,
+				3224507D239489BA004F08A4 /* WKWebview.m */,
+				32A1DEA0239119EF00DEA724 /* SecondViewScene.h */,
+				32A1DEA1239119EF00DEA724 /* SecondViewScene.m */,
+				32E04CCE2390997F0060B2AD /* Assets.xcassets */,
+				32E04CD02390997F0060B2AD /* LaunchScreen.storyboard */,
+				32E04CD32390997F0060B2AD /* Info.plist */,
+				32E04CD42390997F0060B2AD /* main.m */,
+				32A1DEA323927DD000DEA724 /* SecondViewController.h */,
+				32A1DEA423927DD000DEA724 /* SecondViewController.m */,
+				3224507923936743004F08A4 /* ShowTableViewController.h */,
+				3224507A23936743004F08A4 /* ShowTableViewController.m */,
+			);
+			path = SequeTest;
+			sourceTree = "<group>";
+		};
+		EBCBF72D201D54FBBE9BCE3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BF3E9B5855D824D6A3596F8 /* Pods-SequeTest.debug.xcconfig */,
+				6448B60C122F481BDAE18BF7 /* Pods-SequeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32E04CBE2390997E0060B2AD /* SequeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E04CD82390997F0060B2AD /* Build configuration list for PBXNativeTarget "SequeTest" */;
+			buildPhases = (
+				FDE6DDBA8C00355C6BECF727 /* [CP] Check Pods Manifest.lock */,
+				32E04CBB2390997E0060B2AD /* Sources */,
+				32E04CBC2390997E0060B2AD /* Frameworks */,
+				32E04CBD2390997E0060B2AD /* Resources */,
+				9CB502F434FD03AA508A4DBA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SequeTest;
+			productName = SequeTest;
+			productReference = 32E04CBF2390997E0060B2AD /* SequeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E04CB72390997E0060B2AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = hyun0699;
+				TargetAttributes = {
+					32E04CBE2390997E0060B2AD = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 32E04CBA2390997E0060B2AD /* Build configuration list for PBXProject "SequeTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32E04CB62390997E0060B2AD;
+			productRefGroup = 32E04CC02390997E0060B2AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E04CBE2390997E0060B2AD /* SequeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E04CBD2390997E0060B2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E04CD22390997F0060B2AD /* LaunchScreen.storyboard in Resources */,
+				32E04CCF2390997F0060B2AD /* Assets.xcassets in Resources */,
+				32E04CCD2390997E0060B2AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CB502F434FD03AA508A4DBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SequeTest/Pods-SequeTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SequeTest/Pods-SequeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE6DDBA8C00355C6BECF727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SequeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E04CBB2390997E0060B2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A1DEA82392AF9B00DEA724 /* ModelViewController.m in Sources */,
+				3224507B23936743004F08A4 /* ShowTableViewController.m in Sources */,
+				32A1DEAF2392AFE200DEA724 /* Controller.m in Sources */,
+				32E04CCA2390997E0060B2AD /* ViewController.m in Sources */,
+				32E04CC42390997E0060B2AD /* AppDelegate.m in Sources */,
+				3224507E239489BA004F08A4 /* WKWebview.m in Sources */,
+				32A1DEAC2392AFD000DEA724 /* Model.m in Sources */,
+				32E04CD52390997F0060B2AD /* main.m in Sources */,
+				32A1DEA523927DD000DEA724 /* SecondViewController.m in Sources */,
+				32E04CC72390997E0060B2AD /* SceneDelegate.m in Sources */,
+				32E04CE0239100240060B2AD /* RootViewController.m in Sources */,
+				32A1DEA2239119EF00DEA724 /* SecondViewScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32E04CCB2390997E0060B2AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E04CCC2390997E0060B2AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32E04CD02390997F0060B2AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E04CD12390997F0060B2AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32E04CD62390997F0060B2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32E04CD72390997F0060B2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E04CD92390997F0060B2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF3E9B5855D824D6A3596F8 /* Pods-SequeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SequeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifeplanets.SequeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32E04CDA2390997F0060B2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6448B60C122F481BDAE18BF7 /* Pods-SequeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SequeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifeplanets.SequeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E04CBA2390997E0060B2AD /* Build configuration list for PBXProject "SequeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E04CD62390997F0060B2AD /* Debug */,
+				32E04CD72390997F0060B2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E04CD82390997F0060B2AD /* Build configuration list for PBXNativeTarget "SequeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E04CD92390997F0060B2AD /* Debug */,
+				32E04CDA2390997F0060B2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E04CB72390997E0060B2AD /* Project object */;
+}

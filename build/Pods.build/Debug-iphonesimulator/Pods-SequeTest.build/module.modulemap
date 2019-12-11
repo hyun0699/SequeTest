@@ -1,0 +1,6 @@
+framework module Pods_SequeTest {
+  umbrella header "Pods-SequeTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

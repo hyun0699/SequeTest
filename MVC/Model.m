@@ -32,6 +32,8 @@
     manager.requestSerializer   = [AFJSONRequestSerializer serializer];
     [manager.requestSerializer setValue:@"sdasdsdas" forHTTPHeaderField:@"Authorization"];
     [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    
+    NSLog(@"commit test");
 
     
     [manager GET:URL parameters:parameters

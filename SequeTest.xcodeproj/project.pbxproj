@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		21BA725AFABDF79840B26C6D /* Pods_SequeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8544F78A0740F177F3C7D07 /* Pods_SequeTest.framework */; };
+		3202E87123A38F0F0059E9BD /* CustomCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202E87023A38F0F0059E9BD /* CustomCell2.m */; };
+		3202E87423A702950059E9BD /* StackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202E87323A702950059E9BD /* StackViewController.m */; };
+		32053D2923A1D84400569915 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32053D2723A1D84400569915 /* CustomCell.m */; };
+		32053D2B23A1DB6300569915 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32053D2D23A1DB6300569915 /* CustomCell.xib */; };
 		3224507B23936743004F08A4 /* ShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3224507A23936743004F08A4 /* ShowTableViewController.m */; };
 		3224507E239489BA004F08A4 /* WKWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = 3224507D239489BA004F08A4 /* WKWebview.m */; };
 		32A1DEA2239119EF00DEA724 /* SecondViewScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1DEA1239119EF00DEA724 /* SecondViewScene.m */; };
@@ -15,6 +19,8 @@
 		32A1DEA82392AF9B00DEA724 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1DEA72392AF9B00DEA724 /* ModelViewController.m */; };
 		32A1DEAC2392AFD000DEA724 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1DEAB2392AFD000DEA724 /* Model.m */; };
 		32A1DEAF2392AFE200DEA724 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1DEAE2392AFE200DEA724 /* Controller.m */; };
+		32A361DF23A7260B00742DC6 /* StackViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A361DE23A7260B00742DC6 /* StackViewController2.m */; };
+		32A361E223A7954500742DC6 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A361E123A7954500742DC6 /* ScrollViewController.m */; };
 		32E04CC42390997E0060B2AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E04CC32390997E0060B2AD /* AppDelegate.m */; };
 		32E04CC72390997E0060B2AD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E04CC62390997E0060B2AD /* SceneDelegate.m */; };
 		32E04CCA2390997E0060B2AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E04CC92390997E0060B2AD /* ViewController.m */; };
@@ -27,6 +33,13 @@
 
 /* Begin PBXFileReference section */
 		2BF3E9B5855D824D6A3596F8 /* Pods-SequeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SequeTest/Pods-SequeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3202E86F23A38F0F0059E9BD /* CustomCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell2.h; sourceTree = "<group>"; };
+		3202E87023A38F0F0059E9BD /* CustomCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell2.m; sourceTree = "<group>"; };
+		3202E87223A702950059E9BD /* StackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackViewController.h; sourceTree = "<group>"; };
+		3202E87323A702950059E9BD /* StackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewController.m; sourceTree = "<group>"; };
+		32053D2623A1D84400569915 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		32053D2723A1D84400569915 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		32053D2C23A1DB6300569915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CustomCell.xib; sourceTree = "<group>"; };
 		3224507923936743004F08A4 /* ShowTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTableViewController.h; sourceTree = "<group>"; };
 		3224507A23936743004F08A4 /* ShowTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTableViewController.m; sourceTree = "<group>"; };
 		3224507C239489BA004F08A4 /* WKWebview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebview.h; sourceTree = "<group>"; };
@@ -41,6 +54,10 @@
 		32A1DEAB2392AFD000DEA724 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		32A1DEAD2392AFE200DEA724 /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		32A1DEAE2392AFE200DEA724 /* Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		32A361DD23A7260B00742DC6 /* StackViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackViewController2.h; sourceTree = "<group>"; };
+		32A361DE23A7260B00742DC6 /* StackViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewController2.m; sourceTree = "<group>"; };
+		32A361E023A7954500742DC6 /* ScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ScrollViewController.h; path = SequeTest/ScrollViewController.h; sourceTree = "<group>"; };
+		32A361E123A7954500742DC6 /* ScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ScrollViewController.m; path = SequeTest/ScrollViewController.m; sourceTree = "<group>"; };
 		32E04CBF2390997E0060B2AD /* SequeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SequeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E04CC22390997E0060B2AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32E04CC32390997E0060B2AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +112,10 @@
 		32E04CB62390997E0060B2AD = {
 			isa = PBXGroup;
 			children = (
+				32A361E023A7954500742DC6 /* ScrollViewController.h */,
+				32A361E123A7954500742DC6 /* ScrollViewController.m */,
+				32A361DD23A7260B00742DC6 /* StackViewController2.h */,
+				32A361DE23A7260B00742DC6 /* StackViewController2.m */,
 				32A1DEA92392AFA700DEA724 /* MVC */,
 				32E04CC12390997E0060B2AD /* SequeTest */,
 				32E04CC02390997E0060B2AD /* Products */,
@@ -135,6 +156,13 @@
 				32A1DEA423927DD000DEA724 /* SecondViewController.m */,
 				3224507923936743004F08A4 /* ShowTableViewController.h */,
 				3224507A23936743004F08A4 /* ShowTableViewController.m */,
+				3202E87223A702950059E9BD /* StackViewController.h */,
+				3202E87323A702950059E9BD /* StackViewController.m */,
+				32053D2623A1D84400569915 /* CustomCell.h */,
+				32053D2723A1D84400569915 /* CustomCell.m */,
+				32053D2D23A1DB6300569915 /* CustomCell.xib */,
+				3202E86F23A38F0F0059E9BD /* CustomCell2.h */,
+				3202E87023A38F0F0059E9BD /* CustomCell2.m */,
 			);
 			path = SequeTest;
 			sourceTree = "<group>";
@@ -209,6 +237,7 @@
 			files = (
 				32E04CD22390997F0060B2AD /* LaunchScreen.storyboard in Resources */,
 				32E04CCF2390997F0060B2AD /* Assets.xcassets in Resources */,
+				32053D2B23A1DB6300569915 /* CustomCell.xib in Resources */,
 				32E04CCD2390997E0060B2AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,16 +304,29 @@
 				3224507E239489BA004F08A4 /* WKWebview.m in Sources */,
 				32A1DEAC2392AFD000DEA724 /* Model.m in Sources */,
 				32E04CD52390997F0060B2AD /* main.m in Sources */,
+				32A361DF23A7260B00742DC6 /* StackViewController2.m in Sources */,
 				32A1DEA523927DD000DEA724 /* SecondViewController.m in Sources */,
+				3202E87123A38F0F0059E9BD /* CustomCell2.m in Sources */,
+				3202E87423A702950059E9BD /* StackViewController.m in Sources */,
 				32E04CC72390997E0060B2AD /* SceneDelegate.m in Sources */,
 				32E04CE0239100240060B2AD /* RootViewController.m in Sources */,
 				32A1DEA2239119EF00DEA724 /* SecondViewScene.m in Sources */,
+				32053D2923A1D84400569915 /* CustomCell.m in Sources */,
+				32A361E223A7954500742DC6 /* ScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		32053D2D23A1DB6300569915 /* CustomCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32053D2C23A1DB6300569915 /* Base */,
+			);
+			name = CustomCell.xib;
+			sourceTree = "<group>";
+		};
 		32E04CCB2390997E0060B2AD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

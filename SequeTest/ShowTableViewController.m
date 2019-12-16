@@ -8,6 +8,9 @@
 
 #import "ShowTableViewController.h"
 #import "Model.h"
+#import "CustomCell.h"
+#import "StackViewController.h"
+#import "ScrollViewController.h"
 
 @interface ShowTableViewController ()
 
@@ -48,18 +51,30 @@
 */
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    static NSString *identifier = @"Cell";
-    UITableViewCell *cell = [self.table dequeueReusableCellWithIdentifier:identifier];
-    if(cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
-    }
+    static NSString *identifier = @"CustomCell2";
+    CustomCell *cell = (CustomCell *)[self.table dequeueReusableCellWithIdentifier:identifier];
     cell.textLabel.text = [self.outData objectAtIndex:indexPath.row];
+    
     return cell;
     
 }
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [self.outData count];
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if(indexPath.row == 1) {
+        UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        ScrollViewController *scroll = [story instantiateViewControllerWithIdentifier:@"Scroll"];
+        
+        [self.navigationController pushViewController:scroll animated:YES];
+    } else {
+        UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        StackViewController *stack = [story instantiateViewControllerWithIdentifier:@"Stack"];
+        
+        [self.navigationController pushViewController:stack animated:YES];
+    }
 }
 
 //- (void)encodeWithCoder:(nonnull NSCoder *)coder {

@@ -1,7 +1,6 @@
 dependencies: \
   /Users/hyun0699/Documents/Source/SequeTest/SequeTest/RootViewController.m \
   /Users/hyun0699/Documents/Source/SequeTest/SequeTest/RootViewController.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/libxml2/module.modulemap \
   /Users/hyun0699/Documents/Source/SequeTest/SequeTest/ViewController.h \
   /Users/hyun0699/Documents/Source/SequeTest/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Modules/module.modulemap \
   /Users/hyun0699/Documents/Source/SequeTest/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h \
